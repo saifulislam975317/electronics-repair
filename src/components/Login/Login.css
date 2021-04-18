@@ -1,0 +1,18 @@
+
+.login-container {
+    border: 1px solid black;
+    text-align: center;
+    width: 600px;
+    position: relative;
+    left: 330px;
+    top: 75px;
+    background-color: cadetblue;
+    color: aquamarine;
+}
+
+button.login-button {
+    background-color: orange;
+    line-height: 35px;
+    border-radius: 8px;
+    margin: 15px;
+}

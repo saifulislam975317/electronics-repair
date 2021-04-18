@@ -1,0 +1,23 @@
+section.footer-container.row {}
+
+section.footer-container.row {
+    border: 2px solid black;
+    height: 300px;
+    background-color: black;
+    color: white;
+    padding: 25px;
+    margin-top: 60px;
+    box-sizing: border-box;
+}
+
+
+
+.company.col-md-3 a {
+    text-decoration: none;
+    color: white;
+}
+
+.quickLink.col-md-3 a {
+    text-decoration: none;
+    color: white;
+}

@@ -1,5 +1,7 @@
 import React from 'react';
 import img from '../../../images/homepage.jpg'
+import './HeaderMain.css';
+
 const HeaderMain = () => {
     return (
         <main className="row">

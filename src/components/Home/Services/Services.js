@@ -8,14 +8,17 @@ import ServiceDetails from '../ServiceDetails/ServiceDetails';
 const servicesData = [
     {
         img: pc,
+        price: 450,
         name: 'Mac & PC repair'
     },
     {
         img: game,
+        price: 340,
         name: 'Game console repair'
     },
     {
         img: wifi,
+        price: 250,
         name: 'Wifi problems'
     }
 ]
@@ -29,7 +32,7 @@ const Services = () => {
            <div className="d-flex justify-content-center">
             <div className="w-75 row">
             {
-                servicesData.map(service => <ServiceDetails service={service}></ServiceDetails>)
+                servicesData.map(services => <ServiceDetails services={services}></ServiceDetails>)
             }
             </div>
            
